@@ -16,12 +16,11 @@
   </head>
   <body>
     {% include 'nav.html' %}
+    <img class="img-fluid" id="banner" src="/static/career-banner.jpg">
     <div class="container"> 
       <h1 class="text-center mt-2 mb-4"">
         {{company_name}} Careers
       </h1>
-      <img class="img-fluid" id="banner" src="/static/career-banner.jpg">
-      <h2 class="text-center mt-2 mb-4">About PS</h2>
       <p class="lead">Lorem ipsum odor amet, consectetuer adipiscing elit. Quisque ligula maximus porta malesuada adipiscing fames at quam. Amauris rhoncus a platea lobortis, himenaeos maecenas malesuada. Vitae eleifend vestibulum magnis ultricies ex placerat. Molestie massa maecenas scelerisque nunc nisi ex. Quam proin commodo accumsan duis per interdum habitasse.
       </p>
       <h2 class="text-center mt-2 mb-4">Open Positions</h2>
@@ -32,8 +31,9 @@
       </p>
       <div class="text-center">
       <button class="btn btn-primary btn-lg">Contact Us</button>
-        <p class="mt-4">Copyright 2022, PS</p>
+        
       </div>
     </div>
+    {% include 'footer.html' %}
   </body>
 </html>
